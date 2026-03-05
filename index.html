@@ -1,46 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
+<html lang="pt-br">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de Perfil</title>
-    <script src="https://kit.fontawesome.com/c4739a030f.js" crossorigin="anonymous"></script>
+</head>
+    <title>Pagina perfil</title>
+    <link rel="stylesheet" href="Estilo/estilo.css">
+    <script src="https://kit.fontawesome.com/7160179495.js" crossorigin="anonymous"></script>
+</head>
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header>
-        <h1>Perfil</h1>
-        <h3>Teórico da conspiração</h3>
+        <h1 id="titulos">Perfil;</h1>
+        <h3 id="subtitulo_principal">Teorico da Conspiração</h2>
     </header>
-    <main class="corpo">
-        <section class="sessao1">
-            <img src="images/Josep.jpg">
-            <h2>Eu Sou Josep Delacruz</h2>
-            <p>Eu sou o maior teórico da conspiração e jornalista da historia</p>
-            <div></div>
-        </section>
-        <section class="sessao2">
-            <h2>Sobre mim</h2>
-            <p>Jornalista profissional, comerciante, investigador paranormal.</p>
-            <button type="button">botão legal</button>
-        </section>
-        <section class="sessao3">
-            <h2>Detalhes</h2>
+    <!-- Principal -->
+    <main id="container">
+
+        <section id="detalhes">
+            <!-- Detalhes -->
+            <h2>Detalhes:</h2>
             <ul>
-                <li>Nome:
-                    <p>Josep Delacruz</p>
-                </li>
-                <li>Idade:
-                    <p>26 anos</p>
-                </li>
-                <li>Local:
-                    <p>Brasil, São Paulo</p>
-                </li>
+                <li>Nome:</li>
+                <li>Josep Cohen Delacruz</li>
+                <li>Idade:</li>
+                <li>25 anos </li>
+                <li>Endereço:</li>
+                <li>email.exemplo123@gmail.com</li>
             </ul>
-            <div></div>
         </section>
+        
+        <section>
+            <!-- Habilidades -->
+            <h2>Habilidades:</h2>
+            <p> teorico profissional, jornalismo, ocultismo, etc.</p>
+            <ul>
+                <h3>Teorias já feitas:</h3>
+                <li>Passaros drones.</li>
+                <li>Reptilianos e iluminatis.</li>
+                <li>O Outro Lado.</li>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum tempora, facere hic illo explicabo tempore aperiam obcaecati error nihil tenetur, distinctio eligendi accusamus excepturi et quis ab reiciendis, vitae alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sequi nam neque dolore atque inventore accusantium natus molestias accusamus, porro similique repudiandae, at nesciunt delectus sunt. Ea voluptate praesentium obcaecati.
+            </ul>
+            <button>Ver programas</button>
+        </section>
+
+        <section id="quem_sou">
+            <!-- sobre mim -->
+             <img src="images/Josep.jpg" alt="foto de perfil">
+                <h2 id="sobre_mim">Olá, Sou Josep Delacruz</h2>
+                <p> Sou um teorico da Conspiração, especialista em ocultismo, antigo jornalista. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aperiam ipsum laborum quas ullam, atque tempore eos quam vel! Velit eos dolorum sequi eveniet, vel temporibus odio eaque provident! Autem.
+                </p>
+                    <button id="botao">Contate-me</button>
+        </section>
+        
     </main>
+
+    <!-- footer apenas info basica e bonitinha -->
     <footer>
-        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nam cupiditate quas illo autem impedit rem</h4>
-    </footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <p>&copy; <span id="ano-atual"></span> Ember</p>
+            <p>Teorico da Conspiração | SBT</p>
+            <p>Email: <a href="mailto:cldanielricardo@gmail.com">email.exemplo123@gmail.com</a></p>
+        </div>
+        
+            <div class="footer-links">
+                <a href="#" target="_blank">GitHub</a> • 
+                <a href="#" target="_blank">LinkedIn</a> • 
+                <a href="#contato">Contato</a>
+            </div>
+    </div>
+</footer>
+
+    
 </body>
 </html>
